@@ -24,8 +24,6 @@ public class InspectPanelHandler : MonoBehaviour,IPointerClickHandler {
 		} else if (sScript != null) {
 			script.setGeneral(sScript.getName(),sScript.getIcon());
 		}
-
-
 	}
 	#endregion
 }

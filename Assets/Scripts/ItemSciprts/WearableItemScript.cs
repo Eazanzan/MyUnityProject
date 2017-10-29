@@ -17,7 +17,7 @@ public class WearableItemScript : MonoBehaviour {
 	Rarity rar;
 	ItemSlot slot;
 
-	public bool disenchantable;
+	bool disenchantable;
 	bool upgradable;
 
 	public void Initialize (string itemName,int propStat,int primary,int primaryVal,int vita,ItemSlot itemSlot,bool dis,bool upg,Sprite icon)

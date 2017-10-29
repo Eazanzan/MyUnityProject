@@ -16,7 +16,7 @@ public class ItemObjectInster : MonoBehaviour {
 		}
 	}
 
-	public void CreatWearableItemObject (int creationId,string name,int propStat,int primary,int primaryVal,int vita,bool disench,bool upg,Sprite icon)
+	private void CreatWearableItemObject (int creationId,string name,int propStat,int primary,int primaryVal,int vita,bool disench,bool upg,Sprite icon)
 	{
 		Transform slotTransform = InventoryHandler.emptySlot();
 		if (slotTransform != null) {
@@ -26,7 +26,7 @@ public class ItemObjectInster : MonoBehaviour {
 		}
 	}
 
-	public void  CreateMiscObject (string name, bool stackable, Sprite icon)
+	private void  CreateMiscObject (string name, bool stackable, Sprite icon)
 	{
 		
 		Transform slotTransform = InventoryHandler.emptySlotStackable (name,stackable,icon);
